@@ -9,6 +9,15 @@ $(function () {
             width: "fit",
         });
 
+        $('.custom-select2').selectpicker({
+            style: "bg-transparent h-40px w-100 text-muted border",
+        });
+
+        $('.country-select').selectpicker({
+            style: "bg-transparent h-40px w-100 text-muted border",
+            liveSearch: true,
+        });
+
         $('.menu-btn').click(function (event) {
             $('.sidebar-content-wrapper aside.sidebar').toggleClass('collapse-sidebar');
             $('.sidebar-content-wrapper .content').toggleClass('large');
