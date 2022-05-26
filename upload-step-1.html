@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your meta description will goes here">
+    <!-- End Meta  -->
+
+    <title>Dashboard - Username</title>
+    <!-- End title -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- End Fonts Links -->
+
+    <link href="./assets/css/plugin.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/responsive.css" rel="stylesheet">
+    <link href="./assets/css/custom.css" rel="stylesheet">
+    <!-- End Css Links -->
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <header class="bg-secondary py-15px sticky-top z-1045 shadow-md">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center lh-1 justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <a class="menu-btn d-flex me-4">
+                            <span class="menu-btn__burger"></span>
+                        </a>
+                        <!-- End Toggler -->
+                        <a href="./index.html" class="logo h2 mb-0 fw-700 text-white">LEARNING</a>
+                        <!-- End Logo -->
+                    </div>
+                    <!-- Left Area -->
+
+                    <form action="#" method=""
+                        class="search-form px-4 d-xl-flex d-none align-items-center flex-grow-1 justify-content-center">
+                        <div class=" w-100 mw-640px mx-auto d-flex align-items-center">
+                            <div class="bg-primary rounded pe-1 h-40px flex-grow-1">
+                                <div class="d-flex align-items-center">
+                                    <button type="submit"
+                                        class="border-0 px-3 h-40px d-flex align-items-center justify-content-center bg-white rounded-start">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            class="fill-muted size-20px" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            x="0px" y="0px" viewBox="0 0 20 18" style="enable-background:new 0 0 20 18;"
+                                            xml:space="preserve">
+                                            <path class="st0"
+                                                d="M19.4,16.3L15.9,13c1.2-1.4,1.9-3.2,1.9-5.2c0-4.6-3.9-8.4-8.6-8.4S0.5,3.2,0.5,7.8c0,4.6,3.9,8.4,8.6,8.4
+                               c2,0,3.8-0.7,5.3-1.8l3.5,3.3c0.2,0.2,0.4,0.3,0.7,0.3c0.3,0,0.5-0.1,0.7-0.3C19.8,17.3,19.8,16.6,19.4,16.3z M2.5,7.8
+                               c0-3.5,3-6.4,6.6-6.4c3.7,0,6.6,2.9,6.6,6.4c0,3.5-3,6.4-6.6,6.4C5.5,14.2,2.5,11.4,2.5,7.8z" />
+                                        </svg>
+                                    </button>
+                                    <input type="text" id="search" class="h-40px border-0 pe-3 flex-grow-1">
+                                    <select name="" id="" class="custom-select bg-primary fs-14">
+                                        <option value="Category-1">Category 1</option>
+                                        <option value="Category-2">Category 2</option>
+                                        <option value="Category-3">Category 3</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <button type="button"
+                                class="text-white fs-32 bg-transparent border-0 px-2 mx-2 d-flex align-items-center justify-content-center voice-search rounded-circle size-50px">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    class="size-26px fill-white" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                    y="0px" viewBox="0 0 18 25" style="enable-background:new 0 0 18 25;"
+                                    xml:space="preserve">
+                                    <path class="st0"
+                                        d="M9,17.2c2.6,0,4.7-2.1,4.7-4.7V4.7C13.7,2.1,11.6,0,9,0C6.4,0,4.3,2.1,4.3,4.7v7.8C4.3,15.1,6.4,17.2,9,17.2z
+                                    M16.8,9.4H16c-0.4,0-0.8,0.3-0.8,0.8v2.3c0,3.7-3.1,6.6-6.9,6.2c-3.2-0.3-5.6-3.2-5.6-6.5v-2.1c0-0.4-0.3-0.8-0.8-0.8H1.2
+                                    c-0.4,0-0.8,0.3-0.8,0.8v2c0,4.4,3.1,8.3,7.4,8.9v1.7H5.1c-0.4,0-0.8,0.3-0.8,0.8v0.8c0,0.4,0.3,0.8,0.8,0.8h7.8
+                                    c0.4,0,0.8-0.3,0.8-0.8v-0.8c0-0.4-0.3-0.8-0.8-0.8h-2.7V21c4.2-0.6,7.4-4.2,7.4-8.5v-2.3C17.6,9.7,17.2,9.4,16.8,9.4z" />
+                                </svg>
+
+                            </button>
+                            <!-- End Voice Search button -->
+                        </div>
+                        <!-- End type Search -->
+                    </form>
+                    <!-- End Desktop Search Form -->
+
+                    <form action="#" method=""
+                        class="mobile-search d-xl-none d-flex align-items-center gap-3 bg-white px-15px">
+                        <div class="d-flex flex-grow-1">
+                            <button type="button" class="close-search border-0 bg-transparent"><i
+                                    class="las la-long-arrow-alt-left h2 mb-0 text-muted"></i></button>
+                            <input class="border-0 h-40px flex-grow-1 border-bottom border-muted mx-2" type="text"
+                                placeholder="Search Here">
+                            <button type="submit" class="border-0 bg-transparent">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    class="fill-muted size-20px" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                    y="0px" viewBox="0 0 20 18" style="enable-background:new 0 0 20 18;"
+                                    xml:space="preserve">
+                                    <path class="st0"
+                                        d="M19.4,16.3L15.9,13c1.2-1.4,1.9-3.2,1.9-5.2c0-4.6-3.9-8.4-8.6-8.4S0.5,3.2,0.5,7.8c0,4.6,3.9,8.4,8.6,8.4
+                                    c2,0,3.8-0.7,5.3-1.8l3.5,3.3c0.2,0.2,0.4,0.3,0.7,0.3c0.3,0,0.5-0.1,0.7-0.3C19.8,17.3,19.8,16.6,19.4,16.3z M2.5,7.8
+                                    c0-3.5,3-6.4,6.6-6.4c3.7,0,6.6,2.9,6.6,6.4c0,3.5-3,6.4-6.6,6.4C5.5,14.2,2.5,11.4,2.5,7.8z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                        <button type="button"
+                            class="bg-transparent border-0 d-flex align-items-center justify-content-center voice-search p-2 rounded-circle">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                class="size-26px fill-muted" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 18 25" style="enable-background:new 0 0 18 25;" xml:space="preserve">
+                                <path class="st0"
+                                    d="M9,17.2c2.6,0,4.7-2.1,4.7-4.7V4.7C13.7,2.1,11.6,0,9,0C6.4,0,4.3,2.1,4.3,4.7v7.8C4.3,15.1,6.4,17.2,9,17.2z
+                                M16.8,9.4H16c-0.4,0-0.8,0.3-0.8,0.8v2.3c0,3.7-3.1,6.6-6.9,6.2c-3.2-0.3-5.6-3.2-5.6-6.5v-2.1c0-0.4-0.3-0.8-0.8-0.8H1.2
+                                c-0.4,0-0.8,0.3-0.8,0.8v2c0,4.4,3.1,8.3,7.4,8.9v1.7H5.1c-0.4,0-0.8,0.3-0.8,0.8v0.8c0,0.4,0.3,0.8,0.8,0.8h7.8
+                                c0.4,0,0.8-0.3,0.8-0.8v-0.8c0-0.4-0.3-0.8-0.8-0.8h-2.7V21c4.2-0.6,7.4-4.2,7.4-8.5v-2.3C17.6,9.7,17.2,9.4,16.8,9.4z" />
+                            </svg>
+                        </button>
+                        <!-- End Voice Search button -->
+                    </form>
+                    <!-- End Mobile Search Form -->
+
+                    <div class="d-flex gap-xl-4 gap-3">
+                        <button type="button" class="bg-transparent border-0 d-xl-none" id="mobileSearch">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                class="fill-white size-26px" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 20 18" style="enable-background:new 0 0 20 18;" xml:space="preserve">
+                                <path class="st0"
+                                    d="M19.4,16.3L15.9,13c1.2-1.4,1.9-3.2,1.9-5.2c0-4.6-3.9-8.4-8.6-8.4S0.5,3.2,0.5,7.8c0,4.6,3.9,8.4,8.6,8.4
+                                c2,0,3.8-0.7,5.3-1.8l3.5,3.3c0.2,0.2,0.4,0.3,0.7,0.3c0.3,0,0.5-0.1,0.7-0.3C19.8,17.3,19.8,16.6,19.4,16.3z M2.5,7.8
+                                c0-3.5,3-6.4,6.6-6.4c3.7,0,6.6,2.9,6.6,6.4c0,3.5-3,6.4-6.6,6.4C5.5,14.2,2.5,11.4,2.5,7.8z"></path>
+                            </svg>
+                        </button>
+                        <button type="button" class="bg-transparent border-0 d-xl-inline-block d-none">
+                            <svg version="1.1" id="Layer_1" image-rendering="optimizeQuality"
+                                class="size-26px fill-white" text-rendering="geometricPrecision"
+                                shape-rendering="geometricPrecision" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                                style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <path class="st0"
+                                    d="M6.3,0h119.3c3.5,0,6.3,2.8,6.3,6.3v119.3c0,3.5-2.8,6.3-6.3,6.3H6.3c-3.5,0-6.3-2.8-6.3-6.3V6.3
+                           C0,2.8,2.8,0,6.3,0z M386.3,380h119.3c3.5,0,6.3,2.8,6.3,6.3v119.3c0,3.5-2.9,6.3-6.3,6.3H386.3c-3.5,0-6.3-2.9-6.3-6.3V386.3
+                           C380,382.8,382.8,380,386.3,380z M386.3,190h119.3c3.5,0,6.3,2.9,6.3,6.3v119.3c0,3.5-2.9,6.3-6.3,6.3H386.3c-3.5,0-6.3-2.8-6.3-6.3
+                           V196.3C380,192.8,382.8,190,386.3,190z M386.3,0h119.3c3.5,0,6.3,2.8,6.3,6.3v119.3c0,3.5-2.9,6.3-6.3,6.3H386.3
+                           c-3.5,0-6.3-2.8-6.3-6.3V6.3C380,2.9,382.8,0,386.3,0L386.3,0z M196.3,380h119.3c3.5,0,6.3,2.8,6.3,6.3v119.3c0,3.5-2.9,6.3-6.3,6.3
+                           H196.3c-3.5,0-6.3-2.9-6.3-6.3V386.3C190,382.8,192.9,380,196.3,380z M196.3,190h119.3c3.5,0,6.3,2.9,6.3,6.3v119.3
+                           c0,3.5-2.9,6.3-6.3,6.3H196.3c-3.5,0-6.3-2.8-6.3-6.3V196.3C190,192.8,192.9,190,196.3,190z M196.3,0h119.3c3.5,0,6.3,2.8,6.3,6.3
+                           v119.3c0,3.5-2.9,6.3-6.3,6.3H196.3c-3.5,0-6.3-2.8-6.3-6.3V6.3C190,2.9,192.9,0,196.3,0L196.3,0z M6.3,380h119.3
+                           c3.5,0,6.3,2.8,6.3,6.3v119.3c0,3.5-2.8,6.3-6.3,6.3H6.3c-3.5,0-6.3-2.9-6.3-6.3V386.3C0,382.8,2.8,380,6.3,380L6.3,380z M6.3,190
+                           h119.3c3.5,0,6.3,2.9,6.3,6.3v119.3c0,3.5-2.8,6.3-6.3,6.3H6.3c-3.5,0-6.3-2.8-6.3-6.3V196.3C0,192.8,2.8,190,6.3,190L6.3,190z" />
+                            </svg>
+                        </button>
+                        <!-- Grid Button -->
+                        <input type="file" class="custom-input c-pointer d-xl-inline-block d-none">
+                        <!-- File Upload -->
+                        <button type="button" class="border-0 bg-transparent d-xl-inline-block d-none"
+                            data-tooltip="Mail to Us" tooltip="true">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                class="size-30px fill-white" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 34 25" style="enable-background:new 0 0 34 25;" xml:space="preserve">
+                                <path class="st0" d="M0,22.3V7c0.1,0,0.1,0,0.1,0.1c4.5,3,9,6,13.5,9c2,1.3,4,1.3,6,0c4.5-3,8.9-5.9,13.4-8.9
+                           c0.1-0.1,0.2-0.1,0.3-0.2v0.3c0,4.9,0,9.7,0,14.6c0,0.3,0,0.5-0.1,0.8c-0.4,1.4-1.6,2.3-3.1,2.3c-4.4,0-8.9,0-13.3,0
+                           c-4.5,0-9,0-13.6,0c-0.9,0-1.7-0.3-2.3-0.9C0.4,23.6,0.2,23,0,22.3z" />
+                                <path class="st0" d="M0,2.7c0.1-0.2,0.1-0.4,0.2-0.6C0.6,0.8,1.7,0,3.1,0C3.8,0,4.4,0,5,0c8.4,0,16.7,0,25.1,0c1,0,1.8,0.3,2.5,1
+                           c1.2,1.4,1,3.4-0.5,4.5c-2,1.4-4.1,2.7-6.1,4.1l-7.3,4.9c-1.4,0.9-2.5,0.9-3.9,0c-4.3-2.9-8.5-5.7-12.8-8.6C1,5.3,0.2,4.6,0,3.5V2.7
+                           z" />
+                            </svg>
+                        </button>
+                        <!-- Mail Button -->
+                        <button type="button" class="bg-transparent border-0 px-0 d-xl-inline-block d-none"
+                            data-count="5" count="true">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                class="size-30px fill-white" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 31 35" style="enable-background:new 0 0 31 35;" xml:space="preserve">
+                                <path class="st0" d="M14.2,35c-0.6-0.2-1.3-0.3-1.8-0.6c-0.9-0.5-1.6-1.2-2.1-2.2c-0.2-0.4-0.1-0.5,0.3-0.5c2.8,0,5.6,0,8.3,0
+                                c0.4,0,0.4,0.1,0.3,0.5c-0.8,1.5-2,2.4-3.6,2.8c-0.1,0-0.2,0-0.3,0.1H14.2z" />
+                                <path class="st0" d="M18.9,5.2c-0.1,0.1-0.2,0.2-0.2,0.3c-1.7,1.6-2.4,3.7-2.2,6c0.2,3.4,2.6,6.2,6,7c0.9,0.2,1.9,0.2,2.9,0.1
+                                c0.3-0.1,0.4,0,0.4,0.3c0,1.1,0.1,2.3,0.5,3.4c0.5,1.4,1.3,2.6,2.4,3.5c0.9,0.8,1.2,1.7,0.9,2.8c-0.2,0.6-0.5,1.1-1,1.4
+                                c-0.5,0.4-1,0.6-1.6,0.6c-0.1,0-0.2,0-0.2,0c-7.9,0-15.8,0-23.7,0c-1.5,0-2.6-0.9-2.8-2.4c-0.2-1,0.2-1.8,0.9-2.5
+                                c0.9-0.8,1.7-1.9,2.2-3c0.4-1,0.7-2.1,0.7-3.2c0-1.4,0-2.8,0-4.1c0-5.4,3.7-9.9,9-10.9c1.9-0.4,3.9-0.2,5.7,0.5
+                                C18.7,5.1,18.7,5.1,18.9,5.2z" />
+                                <path class="st0" d="M14.8,0c1,0,1.9,0.4,2.6,1c0.7,0.7,1.1,1.5,1.2,2.5c0,0.3,0,0.4-0.3,0.3c-2.3-0.7-4.7-0.7-7,0
+                                c-0.3,0.1-0.3,0-0.3-0.3c0.1-1,0.5-1.8,1.2-2.5C12.9,0.4,13.8,0,14.8,0z" />
+                            </svg>
+
+                        </button>
+                        <!-- Notification Button -->
+                        <button class="bg-transparent border-0">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                class="size-30px fill-white" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 33 30" style="enable-background:new 0 0 33 30;" xml:space="preserve">
+                                <path class="st0"
+                                    d="M32.6,6.5v0.6c0,0.1,0,0.1-0.1,0.2c-0.9,3.5-1.8,7.1-2.7,10.6c-0.2,0.8-0.6,1.1-1.5,1.2c-2.7,0.2-5.4,0.3-8,0.5
+                                    c-3.9,0.2-7.8,0.5-11.7,0.7c-0.4,0-0.9,0.1-1.4,0.1c0,0.1,0.1,0.2,0.1,0.2c0.5,0.8,1.3,1.3,2.2,1.3c4.9,0,9.9,0,14.8,0
+                                    c2.6,0,4.4,2.2,4.1,4.7c-0.3,2.1-2.3,3.6-4.5,3.4c-2-0.2-3.7-2.2-3.5-4.3c0-0.4,0.1-0.8,0.2-1.1h-7.2c0.4,2.5-0.2,4-2,5
+                                    c-0.8,0.4-1.6,0.5-2.5,0.4c-0.8-0.1-1.6-0.5-2.2-1.1c-0.6-0.6-1.1-1.4-1.2-2.2c-0.1-0.6-0.1-1.1,0.1-1.7c0.1-0.5,0.4-1.1,0.7-1.5
+                                    l-0.2-0.2c-1-0.9-1.6-2-1.7-3.3c-0.2-2.2-0.4-4.5-0.6-6.7C3.5,9.8,3.2,6.4,2.9,3c0-0.2-0.1-0.3-0.3-0.3c-0.4,0-0.8,0-1.1,0
+                                    c-0.2,0-0.3,0-0.5-0.1C0.6,2.5,0.4,2.3,0.2,2.1C0,1.8,0,1.5,0,1.2C0.1,0.5,0.6,0,1.4,0C2.3,0,3.1,0,4,0c0.8,0,1.3,0.5,1.4,1.4
+                                    c0.1,1.1,0.2,2.1,0.3,3.2c0,0.3,0.1,0.6,0.1,0.9h21.8c1.2,0,2.4,0,3.6,0C31.8,5.5,32.3,5.8,32.6,6.5C32.5,6.4,32.6,6.5,32.6,6.5z" />
+                            </svg>
+                        </button>
+                        <!-- Cart Button -->
+                        <button class="bg-transparent border-0 px-0">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                class="size-30px fill-white" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+                                <path class="st0" d="M18.5,35h-2c-0.1,0-0.2,0-0.3-0.1c-2.1-0.1-4.2-0.7-6.1-1.6c-5.4-2.6-8.7-6.9-9.8-12.8c-0.1-0.7-0.2-1.3-0.3-2
+                                v-2.1c0-0.1,0-0.2,0.1-0.3C0.2,14,0.7,12,1.7,10.1C4.8,3.9,9.8,0.5,16.8,0c3.4-0.2,6.8,0.6,9.7,2.4c5.3,3.3,8.2,8.1,8.6,14.3
+                                c0.2,3.1-0.5,6.2-2,9c-2.7,4.9-6.9,7.9-12.4,9C19.9,34.9,19.2,34.9,18.5,35z M17.5,19.7L17.5,19.7c-1.1-0.1-2.2-0.1-3.3-0.1
+                                c-2.9,0-5.3,1.9-5.8,4.7c-0.2,0.8-0.3,1.7,0.3,2.4c0.4,0.5,0.9,1,1.4,1.3c2.8,1.9,5.8,2.6,9.1,2.2c2.5-0.3,4.7-1.3,6.6-2.9
+                                c0.3-0.2,0.5-0.5,0.7-0.9c0.2-0.3,0.2-0.7,0.2-1.1c0-2.9-2.2-5.4-5.1-5.7C20.3,19.6,18.9,19.7,17.5,19.7L17.5,19.7z M11.7,11
+                                c0,1.5,0.6,3,1.7,4.1c1.1,1.1,2.6,1.7,4.1,1.7c3.2,0,5.8-2.7,5.8-5.8c0-1.5-0.6-3-1.7-4.1c-1.1-1.1-2.6-1.7-4.1-1.7
+                                C14.3,5.3,11.7,7.9,11.7,11z" />
+                            </svg>
+                        </button>
+                        <!-- User Button -->
+                    </div>
+                    <!-- End Essential Icons Area -->
+
+                </div>
+                <!-- End Header Wrapper -->
+            </div>
+            <!-- End Container -->
+        </header>
+        <!-- End Header Area -->
+
+        <section class="py-4">
+            <div class="container-fluid">
+                <div class="px-xl-5">
+                    <ul class="custom-breadcrumb mt-3">
+                        <li class="active">Course Overview</li>
+                        <li>Upload Video</li>
+                        <li>Submit</li>
+                    </ul>
+                    <!-- End Breadcrumb -->
+
+                    <div class="upload-sidebar-wrapper pt-5 mt-lg-4">
+                        <aside class="up-sidebar">
+                            <div class="steps-wrapper flex-wrap">
+                                <div class="single-step d-flex flex-lg-row flex-column align-items-center gap-lg-4 gap-2 active">
+                                    <div class="flex-shrink-0 size-34px count-step">
+                                        1
+                                    </div>
+                                    <div class="flex-grow-1 fs-18">
+                                        Course Model
+                                    </div>
+                                </div>
+                                <!-- Single Step -->
+                                <div class="single-step d-flex flex-lg-row flex-column align-items-center gap-lg-4 gap-2">
+                                    <div class="flex-shrink-0 size-34px count-step">
+                                        2
+                                    </div>
+                                    <div class="flex-grow-1 fs-18">
+                                        Course Details
+                                    </div>
+                                </div>
+                                <!-- Single Step -->
+                                <div class="single-step d-flex flex-lg-row flex-column align-items-center gap-lg-4 gap-2">
+                                    <div class="flex-shrink-0 size-34px count-step">
+                                        3
+                                    </div>
+                                    <div class="flex-grow-1 fs-18">
+                                        Category & Tags
+                                    </div>
+                                </div>
+                                <!-- Single Step -->
+                                <div class="single-step d-flex flex-lg-row flex-column align-items-center gap-lg-4 gap-2">
+                                    <div class="flex-shrink-0 size-34px count-step">
+                                        4
+                                    </div>
+                                    <div class="flex-grow-1 fs-18">
+                                        Price & Others
+                                    </div>
+                                </div>
+                                <!-- Single Step -->
+                                <div class="single-step d-flex flex-lg-row flex-column align-items-center gap-lg-4 gap-2">
+                                    <div class="flex-shrink-0 size-34px count-step">
+                                        5
+                                    </div>
+                                    <div class="flex-grow-1 fs-18">
+                                        Course Thumbnail
+                                    </div>
+                                </div>
+                                <!-- Single Step -->
+                            </div>
+                        </aside>
+                        <!-- End Sidebar -->
+                        <div class="up-content ps-lg-5">
+                            <div class="bg-white p-sm-5 p-4 ms-lg-4">
+                                <div class="mx-lg-5">
+                                    <div class="mb-md-4 pb-4">
+                                        <h5 class="h5 text-center text-dark fw-500 mb-1 pb-1">How you want to sell your
+                                            course tutorial?</h5>
+                                        <p class="fs-16 text-center text-muted">If we market your course, definitely you
+                                            will get better sells. But the decision is yours</p>
+                                    </div>
+                                    <!-- End Header Title & Subtitle -->
+
+                                    <div class="pb-4 mb-lg-3">
+                                        <div class="mb-4">
+                                            <h5 class="h5 text-secondary fw-500 mb-1 pb-1">What you will get & rules to
+                                                follow:</h5>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-3 mb-4">
+                                            <div class="flex-shrink-0">
+                                                <img class="lazyload" data-src="./assets/images/icons/check.svg"
+                                                    width="18" alt="Icon">
+                                            </div>
+                                            <div class="flex-grow-1 text-dark fs-16">Instructor: 42.5% | A& Z LEARNING:
+                                                57.5%</div>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-3 mb-4">
+                                            <div class="flex-shrink-0">
+                                                <img class="lazyload" data-src="./assets/images/icons/check.svg"
+                                                    width="18" alt="Icon">
+                                            </div>
+                                            <div class="flex-grow-1 text-dark fs-16">Social media announcement or teaser
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-3 mb-4">
+                                            <div class="flex-shrink-0">
+                                                <img class="lazyload" data-src="./assets/images/icons/check.svg"
+                                                    width="18" alt="Icon">
+                                            </div>
+                                            <div class="flex-grow-1 text-dark fs-16">Instructor: 42.5% | Instructory:
+                                                57.5%</div>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-3 mb-4">
+                                            <div class="flex-shrink-0">
+                                                <img class="lazyload" data-src="./assets/images/icons/check.svg"
+                                                    width="18" alt="Icon">
+                                            </div>
+                                            <div class="flex-grow-1 text-dark fs-16">Instructor: 42.5% | Instructory:
+                                                57.5%</div>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-3 mb-4">
+                                            <div class="flex-shrink-0">
+                                                <img class="lazyload" data-src="./assets/images/icons/check.svg"
+                                                    width="18" alt="Icon">
+                                            </div>
+                                            <div class="flex-grow-1 text-dark fs-16">Instructor: 42.5% | Instructory:
+                                                57.5%</div>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-3 mb-4">
+                                            <div class="flex-shrink-0">
+                                                <img class="lazyload" data-src="./assets/images/icons/check.svg"
+                                                    width="18" alt="Icon">
+                                            </div>
+                                            <div class="flex-grow-1 text-dark fs-16">Instructor: 42.5% | Instructory:
+                                                57.5%</div>
+                                        </div>
+                                    </div>
+                                    <!-- End Rules Area -->
+
+                                    <div>
+                                        <div class="d-flex align-items-center gap-3 pb-3 mb-md-3">
+                                            <div class="flex-shrink-0">
+                                                <input type="checkbox" id="aggrements" class="custom-checkbox">
+                                            </div>
+                                            <label for="aggrements" class="c-pointer fs-16 text-dark">I agree to <a class="text-secondary"
+                                                    href="#">Terms & Conditions, Privacy & Policy</a> and <a href="#"
+                                                    class="text-secondary">Refund Policy</a></label>
+                                        </div>
+                                        <!-- End Aggrements
+                                         -->
+                                        <div class="row g-3 mb-3">
+                                            <div class="w-fit">
+                                                <button type="button" class="btn btn-outline-secondary px-4">Cancel</button>
+                                            </div>
+                                            <div class="w-fit">
+                                                <button type="button" class="btn bg-secondary text-white hov-bg-primary px-4">Save & Continue</button>
+                                            </div>
+                                        </div>
+                                        <!-- End Buttons -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Contents -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-lg-5 py-4">
+            <div class="container">
+                <div
+                    class="d-flex align-items-center justify-content-around justify-content-lg-between gap-2 flex-wrap">
+                    <h4 class="h5 fw-700 text-dark text-center">Having problem learning from a reliable
+                        online platform as a student?</h4>
+                    <div>
+                        <a href="#" class="btn btn-primary fw-700 py-10px px-15px shadow-sm hov-shadow-md">Visit Our
+                            Support Center</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Support Area -->
+
+        <footer class="pt-5 pb-3 bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 px-15px mb-3">
+                        <div class="mb-3">
+                            <img class="lazyload" data-src="./assets/images/logo/logo.svg" width="200" alt="Logo">
+                        </div>
+                        <p class="fs-16 fw-300 text-white">The commune also contains the
+                            industrial zones of Chaux de
+                            Contern, and Rosswenkel,
+                            as well as the activity zone of
+                            Weiergewan. The town hall was
+                            formerly situated among these
+                            industrial zones prior to the redesign
+                            formerly situated among these
+                            industrial zones prior to the redesign </p>
+                        <h2 class="h4 text-white pb-2 border-bottom border-light">Contact Us</h2>
+                        <ul class="list-unstyled mb-0 p-0">
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px"
+                                    href="tel: 01783669597">01783669597</a></li>
+                        </ul>
+                    </div>
+                    <!-- End Single Column -->
+
+                    <div class="col-lg-3 px-15px mb-3">
+                        <h2 class="h4 text-white pb-2 border-bottom border-light">Contact Us</h2>
+                        <ul class="list-unstyled p-0 mb-0">
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Blog</a></li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Our Instructors</a>
+                            </li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Our Learners</a></li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Become an Online
+                                    Teacher</a>
+                            </li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Become an
+                                    Affiliator</a></li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">How It Works</a></li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Course Categories</a>
+                            </li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Create an Account</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Single Column -->
+
+                    <div class="col-lg-3 px-15px mb-3">
+                        <h2 class="h4 text-white pb-2 border-bottom border-light">Need Support</h2>
+                        <ul class="list-unstyled p-0 mb-4">
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Contact Us</a></li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">FAQ</a></li>
+                        </ul>
+                        <h2 class="h4 text-white pb-2 border-bottom border-light">Need Support</h2>
+                        <ul class="list-unstyled p-0 mb-0">
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Sitemap</a></li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Sitemap</a></li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Purchase and
+                                    Withdraw</a></li>
+                        </ul>
+                    </div>
+                    <!-- End Single Column -->
+
+                    <div class="col-lg-3 px-15px mb-3">
+                        <h2 class="h3 text-white pb-2 border-bottom border-white">About Instructory</h2>
+                        <ul class="list-unstyled p-0 mb-4">
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Our Story</a></li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Refund Policy</a></li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Terms & Conditions</a>
+                            </li>
+                        </ul>
+                        <h2 class="h3 text-white pb-2 border-bottom border-white">More</h2>
+                        <ul class="list-unstyled p-0 mb-0">
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Terms & Conditions</a>
+                            </li>
+                            <li><a class="fs-16 fw-300 text-white nav-link px-0 py-5px" href="#">Instructor's Level</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Single Column -->
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Area -->
+
+    </div>
+    <!-- End Site Wrapper -->
+
+    <script type="text/javascript" src="./assets/js/plugin.js"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <!-- End Javascript Links -->
+</body>
+
+</html>
